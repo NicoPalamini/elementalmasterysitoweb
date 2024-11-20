@@ -1,0 +1,170 @@
+body {
+  cursor: url(images/cursore.png), auto;
+  overflow-x: hidden;
+}
+
+#barra {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-image: url(images/sfondo.jpg);
+  z-index: 1;
+}
+
+#navbarSupportedContent a{
+  color: rgb(255, 255, 255);
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo img {
+  width: 150px;
+  height: auto;
+}
+
+/* imamagine di sfondo */
+.bgimage {
+  height:100vh;
+  background: url('images/sfondo.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+/* testi sopra le foto*/
+#invito {
+  font-size: 6rem;
+  font-family: 'Bagel Fat One', cursive;
+}
+#sottotitolo {
+  font-size: 2rem;
+  color: aliceblue;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#titolo img {
+  justify-content: center; 
+  align-items: center;
+  max-width: 60%;
+  max-height: 60%;
+  transition:transform 0.3s;
+}
+
+#titolo img:hover {
+  transform: scale(1.2);
+}
+
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(39, 84, 84);
+}
+
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image-zoom {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+  
+.image-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* mockup gioco */
+.mockup {
+  height:100vh;
+  background: url('images/plancia.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+#about, #portfolio, #contact {
+  padding-top: 4rem;
+}
+
+#services {
+  margin-top: 10em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: url('images/sfondo.jpg');
+}
+
+#image-element {
+  width: 100%;
+  height: 100%;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color:rgb(121, 156, 215);
+}
+
+.text-gioco {
+  position: relative;
+  left: 34%;
+}
+
+h4 {
+  font-family: 'Bagel Fat One', cursive;
+  color: rgb(39, 84, 84);
+}
+
+@media only screen and (max-width:675px){
+  .text-gioco{
+    position: relative;
+    left: 15%;
+  }
+}
+
+.text-contact {
+  position: relative;
+  left: 51%;
+}
+
+@media only screen and (max-width:675px){
+  .text-contact{
+    position: relative;
+    left: 30%;
+  }
+}
+
+.fab {
+  color: white;
+}
+/* animazione */
+#footer {
+  background-image: url(images/sfondo.jpg);
+  text-align: center;
+}
